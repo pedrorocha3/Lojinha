@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
@@ -11,9 +12,12 @@ namespace Lojinha.DAL
     {
         public static string StringConexao
         {
-            get
+            get 
             {
-                return "server = Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = Lojinha; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False";
+               string conexao = "Data Source=DESKTOP-OEKMT27\\MSSQLSERVER02;Initial Catalog=LOJINHA;Integrated Security=True;Encrypt=False;TrustServerCertificate=True";
+                return conexao;
+               
+
             }
 
 
