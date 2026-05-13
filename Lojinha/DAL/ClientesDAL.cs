@@ -119,7 +119,7 @@ namespace Lojinha.DAL
 
 
         }
-        public void Exclui(ClienteInformation cliente)
+        public void Exclui(int codigo)
         {
             // Conexão com o banco de dados
             SqlConnection cn = new SqlConnection(Dados.StringConexao);
@@ -140,7 +140,7 @@ namespace Lojinha.DAL
                 cn.Open();
                 cmd.ExecuteNonQuery();
 
-                cliente.Codigo = (Int32)cmd.Parameters["@codigo"].Value;
+               
             }
 
 
@@ -203,5 +203,7 @@ namespace Lojinha.DAL
                 cn.Close();
             }
         }
+
+        
     }
 }
