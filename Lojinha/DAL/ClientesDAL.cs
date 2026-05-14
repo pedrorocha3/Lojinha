@@ -135,7 +135,7 @@ namespace Lojinha.DAL
 
                 // Código
                 SqlParameter pcodigo = new SqlParameter("@codigo", SqlDbType.Int);
-                pcodigo.Direction = ParameterDirection.Output;
+                pcodigo.Value = codigo;
                 cmd.Parameters.Add(pcodigo);
 
                 cn.Open();
