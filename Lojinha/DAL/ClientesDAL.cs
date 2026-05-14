@@ -81,6 +81,7 @@ namespace Lojinha.DAL
                 // Código
                 SqlParameter pcodigo = new SqlParameter("@codigo", SqlDbType.Int);
                 pcodigo.Direction = ParameterDirection.Output;
+                
                 cmd.Parameters.Add(pcodigo);
                 // Nome
                 SqlParameter pnome = new SqlParameter("@nome", SqlDbType.VarChar, 100);
@@ -98,7 +99,7 @@ namespace Lojinha.DAL
                 cn.Open();
                 cmd.ExecuteNonQuery();
 
-                cliente.Codigo = (Int32)cmd.Parameters["@codigo"].Value;
+                
             }
 
 
