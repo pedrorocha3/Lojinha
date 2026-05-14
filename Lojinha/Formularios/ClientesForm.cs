@@ -73,18 +73,14 @@ namespace Lojinha.Formularios
             {
                 try
                 {
-                    ClienteInformation cliente = new ClienteInformation();
-                    cliente.Codigo = int.Parse(codigoTextBox.Text);
-                    cliente.Nome = nomeTextBox.Text;
-                    cliente.Email = emailTextBox.Text;
-                    cliente.Telefone = TelefoneTextBox.Text;
+                   int codigo = int.Parse(codigoTextBox.Text);
                     ClientesBLL obj = new ClientesBLL();
-                    obj.Exclui(cliente);
+                    obj.Exclui(codigo);
                     MessageBox.Show("Cliente excluido com sucesso");
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("ERRO: " + ex.Message);
+                    MessageBox.Show("ERRO: " + ex.Message.ToString());
                 }
             }
         }

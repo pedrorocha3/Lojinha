@@ -55,8 +55,6 @@ namespace Lojinha.BLL
             return obj.Listagem(filtro);
         }
 
-
-
-
+        
     }
 }
