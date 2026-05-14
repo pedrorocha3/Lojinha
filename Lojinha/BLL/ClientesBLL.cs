@@ -36,6 +36,7 @@ namespace Lojinha.BLL
             // se está tudo ok, chama a rotina de alteração
             ClientesDAL obj = new ClientesDAL();
             obj.Altera(cliente);
+            // isso aii
         }
         public void Exclui(int codigo)
         {
