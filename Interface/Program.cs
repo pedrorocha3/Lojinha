@@ -1,11 +1,11 @@
-﻿using Lojinha.Formularios;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Interface.formularios;
 
-namespace Lojinha
+namespace Interface
 {
     internal static class Program
     {
@@ -17,7 +17,7 @@ namespace Lojinha
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PrincipalForm());
+            Application.Run(new FormPrincipal());
         }
     }
 }
