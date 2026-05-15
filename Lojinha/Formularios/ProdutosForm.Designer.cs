@@ -124,6 +124,7 @@
             this.ExcluirProdutoButton.TabIndex = 9;
             this.ExcluirProdutoButton.Text = "Excluir";
             this.ExcluirProdutoButton.UseVisualStyleBackColor = true;
+            this.ExcluirProdutoButton.Click += new System.EventHandler(this.ExcluirProdutoButton_Click);
             // 
             // AlterarProdutoButton
             // 
@@ -133,6 +134,7 @@
             this.AlterarProdutoButton.TabIndex = 10;
             this.AlterarProdutoButton.Text = "Alterar";
             this.AlterarProdutoButton.UseVisualStyleBackColor = true;
+            this.AlterarProdutoButton.Click += new System.EventHandler(this.AlterarProdutoButton_Click);
             // 
             // ListarProdutoButton
             // 

@@ -23,7 +23,7 @@ namespace Lojinha.BLL
             ProdutosDAL obj = new ProdutosDAL();
             obj.InsereProduto(produto);
         }
-        public void Altera(ProdutosInformation produto)
+        public void AlteraProduto(ProdutosInformation produto)
         {
             // nome do produto é obrigatório
             if (produto.Nome.Trim().Length == 0)
