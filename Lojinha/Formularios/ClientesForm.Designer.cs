@@ -176,6 +176,7 @@
             this.Controls.Add(this.codigoLabel);
             this.Name = "ClientesForm";
             this.Text = "ClientesForm";
+            this.Load += new System.EventHandler(this.ClientesForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

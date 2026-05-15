@@ -28,148 +28,138 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Limpar1 = new System.Windows.Forms.Button();
-            this.ListagemButton1 = new System.Windows.Forms.Button();
-            this.ExcluirButton1 = new System.Windows.Forms.Button();
-            this.alterarButton1 = new System.Windows.Forms.Button();
-            this.incluirButton1 = new System.Windows.Forms.Button();
-            this.emailTextBox1 = new System.Windows.Forms.TextBox();
-            this.TelefoneTextBox1 = new System.Windows.Forms.TextBox();
-            this.nomeTextBox1 = new System.Windows.Forms.TextBox();
-            this.codigoTextBox1 = new System.Windows.Forms.TextBox();
-            this.telefoneLabel1 = new System.Windows.Forms.Label();
-            this.emailLabel1 = new System.Windows.Forms.Label();
-            this.nomeLabel1 = new System.Windows.Forms.Label();
-            this.codigoLabel1 = new System.Windows.Forms.Label();
+            this.NomeProdutoLabel = new System.Windows.Forms.Label();
+            this.PreçoProdutoLabel = new System.Windows.Forms.Label();
+            this.Estoque = new System.Windows.Forms.Label();
+            this.CodigoLabel = new System.Windows.Forms.Label();
+            this.NomeProdutoTextBox = new System.Windows.Forms.TextBox();
+            this.PrecoProdutoTextBox = new System.Windows.Forms.TextBox();
+            this.EstoqueProdutoTextBox = new System.Windows.Forms.TextBox();
+            this.CodigoProdutoTextBox = new System.Windows.Forms.TextBox();
+            this.InserirProdutoButton = new System.Windows.Forms.Button();
+            this.ExcluirProdutoButton = new System.Windows.Forms.Button();
+            this.AlterarProdutoButton = new System.Windows.Forms.Button();
+            this.ListarProdutoButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Limpar1
+            // NomeProdutoLabel
             // 
-            this.Limpar1.Location = new System.Drawing.Point(570, 254);
-            this.Limpar1.Name = "Limpar1";
-            this.Limpar1.Size = new System.Drawing.Size(75, 23);
-            this.Limpar1.TabIndex = 25;
-            this.Limpar1.Text = "Limpar";
-            this.Limpar1.UseVisualStyleBackColor = true;
+            this.NomeProdutoLabel.AutoSize = true;
+            this.NomeProdutoLabel.Location = new System.Drawing.Point(12, 87);
+            this.NomeProdutoLabel.Name = "NomeProdutoLabel";
+            this.NomeProdutoLabel.Size = new System.Drawing.Size(35, 13);
+            this.NomeProdutoLabel.TabIndex = 0;
+            this.NomeProdutoLabel.Text = "Nome";
             // 
-            // ListagemButton1
+            // PreçoProdutoLabel
             // 
-            this.ListagemButton1.Location = new System.Drawing.Point(440, 254);
-            this.ListagemButton1.Name = "ListagemButton1";
-            this.ListagemButton1.Size = new System.Drawing.Size(75, 23);
-            this.ListagemButton1.TabIndex = 24;
-            this.ListagemButton1.Text = "Listagem";
-            this.ListagemButton1.UseVisualStyleBackColor = true;
+            this.PreçoProdutoLabel.AutoSize = true;
+            this.PreçoProdutoLabel.Location = new System.Drawing.Point(12, 130);
+            this.PreçoProdutoLabel.Name = "PreçoProdutoLabel";
+            this.PreçoProdutoLabel.Size = new System.Drawing.Size(35, 13);
+            this.PreçoProdutoLabel.TabIndex = 1;
+            this.PreçoProdutoLabel.Text = "Preço";
             // 
-            // ExcluirButton1
+            // Estoque
             // 
-            this.ExcluirButton1.Location = new System.Drawing.Point(309, 253);
-            this.ExcluirButton1.Name = "ExcluirButton1";
-            this.ExcluirButton1.Size = new System.Drawing.Size(75, 23);
-            this.ExcluirButton1.TabIndex = 23;
-            this.ExcluirButton1.Text = "Excluir";
-            this.ExcluirButton1.UseVisualStyleBackColor = true;
+            this.Estoque.AutoSize = true;
+            this.Estoque.Location = new System.Drawing.Point(12, 164);
+            this.Estoque.Name = "Estoque";
+            this.Estoque.Size = new System.Drawing.Size(46, 13);
+            this.Estoque.TabIndex = 2;
+            this.Estoque.Text = "Estoque";
             // 
-            // alterarButton1
+            // CodigoLabel
             // 
-            this.alterarButton1.Location = new System.Drawing.Point(184, 254);
-            this.alterarButton1.Name = "alterarButton1";
-            this.alterarButton1.Size = new System.Drawing.Size(75, 23);
-            this.alterarButton1.TabIndex = 22;
-            this.alterarButton1.Text = "Alterar";
-            this.alterarButton1.UseVisualStyleBackColor = true;
+            this.CodigoLabel.AutoSize = true;
+            this.CodigoLabel.Location = new System.Drawing.Point(12, 28);
+            this.CodigoLabel.Name = "CodigoLabel";
+            this.CodigoLabel.Size = new System.Drawing.Size(40, 13);
+            this.CodigoLabel.TabIndex = 3;
+            this.CodigoLabel.Text = "Codigo";
             // 
-            // incluirButton1
+            // NomeProdutoTextBox
             // 
-            this.incluirButton1.Location = new System.Drawing.Point(69, 254);
-            this.incluirButton1.Name = "incluirButton1";
-            this.incluirButton1.Size = new System.Drawing.Size(75, 23);
-            this.incluirButton1.TabIndex = 21;
-            this.incluirButton1.Text = "Incluir";
-            this.incluirButton1.UseVisualStyleBackColor = true;
+            this.NomeProdutoTextBox.Location = new System.Drawing.Point(132, 80);
+            this.NomeProdutoTextBox.Name = "NomeProdutoTextBox";
+            this.NomeProdutoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.NomeProdutoTextBox.TabIndex = 4;
             // 
-            // emailTextBox1
+            // PrecoProdutoTextBox
             // 
-            this.emailTextBox1.Location = new System.Drawing.Point(131, 135);
-            this.emailTextBox1.Name = "emailTextBox1";
-            this.emailTextBox1.Size = new System.Drawing.Size(182, 20);
-            this.emailTextBox1.TabIndex = 20;
+            this.PrecoProdutoTextBox.Location = new System.Drawing.Point(132, 123);
+            this.PrecoProdutoTextBox.Name = "PrecoProdutoTextBox";
+            this.PrecoProdutoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.PrecoProdutoTextBox.TabIndex = 5;
             // 
-            // TelefoneTextBox1
+            // EstoqueProdutoTextBox
             // 
-            this.TelefoneTextBox1.Location = new System.Drawing.Point(131, 197);
-            this.TelefoneTextBox1.Name = "TelefoneTextBox1";
-            this.TelefoneTextBox1.Size = new System.Drawing.Size(132, 20);
-            this.TelefoneTextBox1.TabIndex = 19;
+            this.EstoqueProdutoTextBox.Location = new System.Drawing.Point(132, 157);
+            this.EstoqueProdutoTextBox.Name = "EstoqueProdutoTextBox";
+            this.EstoqueProdutoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.EstoqueProdutoTextBox.TabIndex = 6;
             // 
-            // nomeTextBox1
+            // CodigoProdutoTextBox
             // 
-            this.nomeTextBox1.Location = new System.Drawing.Point(131, 78);
-            this.nomeTextBox1.Name = "nomeTextBox1";
-            this.nomeTextBox1.Size = new System.Drawing.Size(182, 20);
-            this.nomeTextBox1.TabIndex = 18;
+            this.CodigoProdutoTextBox.Location = new System.Drawing.Point(132, 21);
+            this.CodigoProdutoTextBox.Name = "CodigoProdutoTextBox";
+            this.CodigoProdutoTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CodigoProdutoTextBox.TabIndex = 7;
             // 
-            // codigoTextBox1
+            // InserirProdutoButton
             // 
-            this.codigoTextBox1.Location = new System.Drawing.Point(131, 19);
-            this.codigoTextBox1.Name = "codigoTextBox1";
-            this.codigoTextBox1.Size = new System.Drawing.Size(58, 20);
-            this.codigoTextBox1.TabIndex = 17;
+            this.InserirProdutoButton.Location = new System.Drawing.Point(108, 268);
+            this.InserirProdutoButton.Name = "InserirProdutoButton";
+            this.InserirProdutoButton.Size = new System.Drawing.Size(75, 23);
+            this.InserirProdutoButton.TabIndex = 8;
+            this.InserirProdutoButton.Text = "Inserir";
+            this.InserirProdutoButton.UseVisualStyleBackColor = true;
+            this.InserirProdutoButton.Click += new System.EventHandler(this.InserirProdutoButton_Click);
             // 
-            // telefoneLabel1
+            // ExcluirProdutoButton
             // 
-            this.telefoneLabel1.AutoSize = true;
-            this.telefoneLabel1.Location = new System.Drawing.Point(20, 200);
-            this.telefoneLabel1.Name = "telefoneLabel1";
-            this.telefoneLabel1.Size = new System.Drawing.Size(52, 13);
-            this.telefoneLabel1.TabIndex = 16;
-            this.telefoneLabel1.Text = "Telefone:";
+            this.ExcluirProdutoButton.Location = new System.Drawing.Point(295, 267);
+            this.ExcluirProdutoButton.Name = "ExcluirProdutoButton";
+            this.ExcluirProdutoButton.Size = new System.Drawing.Size(75, 23);
+            this.ExcluirProdutoButton.TabIndex = 9;
+            this.ExcluirProdutoButton.Text = "Excluir";
+            this.ExcluirProdutoButton.UseVisualStyleBackColor = true;
             // 
-            // emailLabel1
+            // AlterarProdutoButton
             // 
-            this.emailLabel1.AutoSize = true;
-            this.emailLabel1.Location = new System.Drawing.Point(20, 135);
-            this.emailLabel1.Name = "emailLabel1";
-            this.emailLabel1.Size = new System.Drawing.Size(38, 13);
-            this.emailLabel1.TabIndex = 15;
-            this.emailLabel1.Text = "E-mail:";
+            this.AlterarProdutoButton.Location = new System.Drawing.Point(488, 267);
+            this.AlterarProdutoButton.Name = "AlterarProdutoButton";
+            this.AlterarProdutoButton.Size = new System.Drawing.Size(75, 23);
+            this.AlterarProdutoButton.TabIndex = 10;
+            this.AlterarProdutoButton.Text = "Alterar";
+            this.AlterarProdutoButton.UseVisualStyleBackColor = true;
             // 
-            // nomeLabel1
+            // ListarProdutoButton
             // 
-            this.nomeLabel1.AutoSize = true;
-            this.nomeLabel1.Location = new System.Drawing.Point(20, 78);
-            this.nomeLabel1.Name = "nomeLabel1";
-            this.nomeLabel1.Size = new System.Drawing.Size(38, 13);
-            this.nomeLabel1.TabIndex = 14;
-            this.nomeLabel1.Text = "Nome:";
-            // 
-            // codigoLabel1
-            // 
-            this.codigoLabel1.AutoSize = true;
-            this.codigoLabel1.Location = new System.Drawing.Point(15, 19);
-            this.codigoLabel1.Name = "codigoLabel1";
-            this.codigoLabel1.Size = new System.Drawing.Size(43, 13);
-            this.codigoLabel1.TabIndex = 13;
-            this.codigoLabel1.Text = "Código:";
+            this.ListarProdutoButton.Location = new System.Drawing.Point(670, 268);
+            this.ListarProdutoButton.Name = "ListarProdutoButton";
+            this.ListarProdutoButton.Size = new System.Drawing.Size(75, 23);
+            this.ListarProdutoButton.TabIndex = 11;
+            this.ListarProdutoButton.Text = "Listar";
+            this.ListarProdutoButton.UseVisualStyleBackColor = true;
             // 
             // ProdutosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Limpar1);
-            this.Controls.Add(this.ListagemButton1);
-            this.Controls.Add(this.ExcluirButton1);
-            this.Controls.Add(this.alterarButton1);
-            this.Controls.Add(this.incluirButton1);
-            this.Controls.Add(this.emailTextBox1);
-            this.Controls.Add(this.TelefoneTextBox1);
-            this.Controls.Add(this.nomeTextBox1);
-            this.Controls.Add(this.codigoTextBox1);
-            this.Controls.Add(this.telefoneLabel1);
-            this.Controls.Add(this.emailLabel1);
-            this.Controls.Add(this.nomeLabel1);
-            this.Controls.Add(this.codigoLabel1);
+            this.Controls.Add(this.ListarProdutoButton);
+            this.Controls.Add(this.AlterarProdutoButton);
+            this.Controls.Add(this.ExcluirProdutoButton);
+            this.Controls.Add(this.InserirProdutoButton);
+            this.Controls.Add(this.CodigoProdutoTextBox);
+            this.Controls.Add(this.EstoqueProdutoTextBox);
+            this.Controls.Add(this.PrecoProdutoTextBox);
+            this.Controls.Add(this.NomeProdutoTextBox);
+            this.Controls.Add(this.CodigoLabel);
+            this.Controls.Add(this.Estoque);
+            this.Controls.Add(this.PreçoProdutoLabel);
+            this.Controls.Add(this.NomeProdutoLabel);
             this.Name = "ProdutosForm";
             this.Text = "ProdutosForm";
             this.ResumeLayout(false);
@@ -179,18 +169,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button Limpar1;
-        private System.Windows.Forms.Button ListagemButton1;
-        private System.Windows.Forms.Button ExcluirButton1;
-        private System.Windows.Forms.Button alterarButton1;
-        private System.Windows.Forms.Button incluirButton1;
-        private System.Windows.Forms.TextBox emailTextBox1;
-        private System.Windows.Forms.TextBox TelefoneTextBox1;
-        private System.Windows.Forms.TextBox nomeTextBox1;
-        private System.Windows.Forms.TextBox codigoTextBox1;
-        private System.Windows.Forms.Label telefoneLabel1;
-        private System.Windows.Forms.Label emailLabel1;
-        private System.Windows.Forms.Label nomeLabel1;
-        private System.Windows.Forms.Label codigoLabel1;
+        private System.Windows.Forms.Label NomeProdutoLabel;
+        private System.Windows.Forms.Label PreçoProdutoLabel;
+        private System.Windows.Forms.Label Estoque;
+        private System.Windows.Forms.Label CodigoLabel;
+        private System.Windows.Forms.TextBox NomeProdutoTextBox;
+        private System.Windows.Forms.TextBox PrecoProdutoTextBox;
+        private System.Windows.Forms.TextBox EstoqueProdutoTextBox;
+        private System.Windows.Forms.TextBox CodigoProdutoTextBox;
+        private System.Windows.Forms.Button InserirProdutoButton;
+        private System.Windows.Forms.Button ExcluirProdutoButton;
+        private System.Windows.Forms.Button AlterarProdutoButton;
+        private System.Windows.Forms.Button ListarProdutoButton;
     }
 }

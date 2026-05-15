@@ -119,7 +119,7 @@ namespace Lojinha.DAL
 
 
         }
-        public void ExcluiProduto(ProdutosInformation produtos)
+        public void ExcluiProduto(int codigo)
         {
             // Conexão com o banco de dados
             SqlConnection cn = new SqlConnection(Dados.StringConexao);
@@ -134,13 +134,13 @@ namespace Lojinha.DAL
 
                 // Código
                 SqlParameter pcodigo = new SqlParameter("@codigo", SqlDbType.Int);
-                pcodigo.Direction = ParameterDirection.Output;
+                pcodigo.Value = codigo;
                 cmd.Parameters.Add(pcodigo);
 
                 cn.Open();
                 cmd.ExecuteNonQuery();
 
-                produtos.Codigo = (Int32)cmd.Parameters["@codigo"].Value;
+                
             }
 
 
